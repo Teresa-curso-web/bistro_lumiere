@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(245, 243, 243)
 }
 .contenedor{
     width: 700px;
@@ -10,8 +11,8 @@
 h1{
     text-align: center;
     font-size: 50px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 60px;
 }
 .texto{
     text-align: center;
@@ -34,10 +35,13 @@ h1{
     margin-bottom: 50px;
     font-size: 18px;
 }
+.iconos a{
+    color: black;
+}
 footer{
-    border-top-style: solid;
+    border-top: 1px solid;
     padding-top: 20px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 footer p{
     text-align: center;
@@ -46,4 +50,42 @@ footer p{
 }
 footer p a{
     color: black;
+}
+/* birthdady dinner */
+.flecha{
+    font-size: 15px;
+    margin: 10px;
+}
+.flecha a{
+    color: black;
+}
+.titulo-segundo{
+    text-align: center;
+    font-size: 38px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    padding-top: 30px;
+}
+.titulo-bajo{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    font-size: 22px;
+    color: rgb(73, 71, 71);
+}
+.separador{
+    width: 4%;                          /*Ancho deseado*/
+    margin: 20px auto;                  /*20 px arriba/abajo, auto centra horizontalmente*/
+    border: 0;                          /*Elimina el borde por defecto del navegador*/
+    border-top: 4px solid #d0cece;    /*Define el grosor y el color*/
+}
+.nota-texto{
+    text-align: center;
+    color: rgb(165, 160, 160);
+    font-style: italic;
+}
+.nota-final{
+    text-align: center;
+    color: rgb(165, 160, 160);
+    margin-top: 100px;
 }
